@@ -1,0 +1,13 @@
+definition_version: 2
+entities:
+  dev_assistant_app:
+    type: streamlit
+    identifier:
+      name: DEV_ASSISTANT_APP
+      schema: DEV
+      database: COCO_CHALLENGE_DB
+    title: "Dev Assistant"
+    comment: "Assistant IA pour développeurs — création d'objets, IHM, CI/CD, tests"
+    query_warehouse: COMPUT_WHAREHOUSE
+    main_file: app.py
+    environment_file: environment.yml
