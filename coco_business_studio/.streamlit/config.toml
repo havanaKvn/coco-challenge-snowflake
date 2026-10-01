@@ -1,0 +1,11 @@
+select * 
+from gold.dd_packing_label 
+where delivery_code
+    in ('33783134',
+    '33784377',
+    '33784412',
+    '33784377',
+    '33782598',
+    '33785409') 
+    and instance_source='SRV2BD'
+;

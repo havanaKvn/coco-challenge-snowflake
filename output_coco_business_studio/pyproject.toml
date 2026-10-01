@@ -1,0 +1,11 @@
+[project]
+name = "dashboard-studio-marc"
+requires-python = ">= 3.11"
+version = "0.0.1"
+description = "Dashboard Qualite & Performance - Studio Marc"
+dependencies = [
+    "streamlit[snowflake]>=1.54.0"
+]
+
+[tool.uv]
+constraint-dependencies = ["numba>=0.56.0"]
